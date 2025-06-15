@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "carbide-theme-463017-g6",
+  "private_key_id": "d07fccde9f5e0a6288403a4cdac365da43a885bd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCbNxToy1tMTRIz\nE4Vf7MFcPCL0i00+8UtMD4Sw4BqXbg9CkzYExeCg2My0KKBFaGTVbBOPGnno9EQP\nAsmBxpCjVr0BrRL+GK3ZUN3I7JRGJ81pxYRYEX3F5LZ6emJ6vp/CUoeCCM49skXR\nssQpqugrHvgP5BTpdg5NT+lka/gsq2YYHbVqBm7GOgMJe7PRoJcT3s3HiHaIoY1z\ngT061A+OOyVRFRb7tyUfakGeyAuEWyjGMXIUC5PLuMjvdo4cBwSK99SDgJ0TthIt\nbFhMXkQIKczptLMJsaKs9Ij7xoCz5hyGEmkXG3mKrdqKM0/kXQL+qv1GawtlwjkJ\nfdoojyHNAgMBAAECggEAIRnznxvzSgfruDHTEVyD9iArEjz9Cc3a0YtDsJbyhNXn\ncjrD2+u5VoQ1z7wURgkX6/4DA9NRKXGibBMbl04Z/YObhlZ7RO5NcRmSWu29R2Lo\np0SEz2VXjdMTaXZdNzEdEAuas4weM8Enq6t0szAsGDogC/+HyCwxq6I9s3llMV09\nPs32yFmU82DZMANx+DP4ftaSsM3BBBuOCK0jf02Mw+fO0HHi2w0mLXLaKHVQtC1o\nSQuUftA7noTs6Km19Uk3oXXHA64XMnvzuhdZ+wY0knlWxYSRV1xALvH6MN/zLjbt\n9YWTqaWW4XF0K6CuWruj7WBsjc08NYigPWPSoPLRfwKBgQDJtDV554svRZ4fa9QN\nZ/sO6X2Yegc2aK+Q8GXCZRBIIH7G8PhECFfaU+ZlsPHSCIyiBUztNDglb3XOVJvm\nxiyTwMGBlNst6vLWg/lQR+mIjQFSzLpWLarNLZ+5SRT3rGc3XnkfBOdwM/UPn03z\nNIDzWdKJcyX93z8VXPOq9/HBKwKBgQDE/z7GsNMWmjpquHe+YIau75LPBEktje8u\nbe4rvuCipmfVi/7C3rYP7JELhMiC/zKlE8bv7UQYzLJHu+BibcyA100OHjinrrVK\nVSV6ZZWzQPM1T16XzZwmIcucAKVRMpxRPbJqiG5wIVBnsiB136gRIJNv8nwe/pIN\nl9v+lQt85wKBgQDByoiOhS4uzt5rJfhooPyPiToIY0XGurHjuXSrXtpT0hS8Iw0E\noFd4BqAYF/deaqRjjmAojsFbBknTYWsgQErX8px4WYJ0DYYfIFFLFqyDa6ZX3Scy\nYVH3K9yH8nVYuKW6huQsL1QFc4YB6nbEMi+qnyQutxlLX1CGv/XEz8/QXQKBgDgQ\n3PD3ilw4cL/G2G2aUzqefI3mjl0ktBnmt45DuPMRoSOpwEv9zpshnPZGSDrgHq3U\nvx2xzVuxhlvcILRiw303yXpnJ4CxvG73ZL89AioOJinZ+PYDUpmXrLcth99gJBUL\nFigzxBqtoJCipZJmoRKeztdhj+nSUgcEXVxLVwWpAoGATIRxDizo2ggKswqwleMl\nrS0F5b6dk5gexVqeSWr1JMzii6QCW4Ops40iFWmv08cjf0TQ0llSYkTiPcQTgv2K\n+dCMweftXVbbCCDBWtEMLAMftuOZNm3QI3fXE0pJZBn1RJ/i33SFvIQvRfjAwALs\n7m6Lvn5UCKxo5z9rjEO2aGY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "appbot@carbide-theme-463017-g6.iam.gserviceaccount.com",
+  "client_id": "114201000051754911833",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/appbot%40carbide-theme-463017-g6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
