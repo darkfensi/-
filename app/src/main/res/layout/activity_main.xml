@@ -1,64 +1,18 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mainLayout"
+    android:id="@+id/layout_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
-    tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/editIp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="IP-адрес"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/editPort"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Порт"
-        android:inputType="number" />
-
-    <EditText
-        android:id="@+id/editUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Логин"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/editPass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Пароль"
-        android:inputType="textPassword" />
-
-    <Switch
-        android:id="@+id/switchTls"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Шифровать трафик (TLS)"
-        android:paddingTop="12dp" />
-
-    <Button
-        android:id="@+id/buttonConnect"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Подключиться"
-        android:layout_marginTop="16dp" />
+    android:gravity="center">
 
     <TextView
         android:id="@+id/statusText"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Статус: отключено"
-        android:textColor="#888888"
-        android:gravity="center"
-        android:textSize="16sp"
-        android:layout_marginTop="20dp" />
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
 
 </LinearLayout>
