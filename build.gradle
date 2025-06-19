@@ -1,4 +1,4 @@
-// Корневой build.gradle (находится рядом с settings.gradle)
+// Корневой build.gradle
 
 buildscript {
     repositories {
@@ -7,6 +7,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.1.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23"
     }
 }
 
