@@ -1,0 +1,9 @@
+name: Android CI
+on:
+  push:
+    branches: [OwlProxy-app]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
