@@ -21,13 +21,14 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # 3) Установка Android SDK + платформ и build-tools
+      # 3) Установка Android SDK + платформ и build-too
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
-          api-level: 34
-          build-tools: '34.0.0'
-
+          packages: |
+            platform-tools
+            platforms;android-34
+            build-tools;34.0.0
       # 4) Дать права на выполнение Gradle wrapper
       - name: Make gradlew executable
         run: chmod +x ./gradlew
