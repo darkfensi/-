@@ -1,44 +1,51 @@
-name: Android Build
+name: Android CI
 
 on:
   push:
-    branches:
-      - OwlProxy-app
+    branches: [ OwlProxy-app ]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      # Скачиваем код
+      - uses: actions/checkout@v4
 
+      # Настраиваем JDK 17
       - name: Set up JDK 17
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: 17
+          distribution: temurin
+          java-version: '17'
 
-      - name: Make gradlew executable
+      # Делаем gradlew исполняемым
+      - name: Make Gradlew Executable
         run: chmod +x ./gradlew
 
+      # Собираем debug-версию модуля app
       - name: Assemble Debug APK
-        run: ./gradlew assembleDebug
+        run: ./gradlew :app:assembleDebug
 
+      # Собираем release-версию модуля app
       - name: Assemble Release APK
-        run: ./gradlew assembleRelease
+        run: ./gradlew :app:assembleRelease
 
+      # Проверяем, что APK появились
       - name: List all APKs
-        run: ls -R app/build/outputs/
+        run: ls -R app/build/outputs/apk
 
+      # Загружаем debug-APK как артефакт
       - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug.apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: debug-apk
+          path: app/build/outputs/apk/debug/*.apk
 
+      # Загружаем release-APK как артефакт
       - name: Upload Release APK
         uses: actions/upload-artifact@v4
         with:
-          name: app-release.apk
-          path: app/build/outputs/apk/release/app-release.apk
+          name: release-apk
+          path: app/build/outputs/apk/release/*.apk
