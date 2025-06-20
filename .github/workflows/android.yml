@@ -25,10 +25,10 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build Release APK
-        run: ./gradlew :app:assembleRelease
+        run: ./gradlew assembleRelease
 
-      - name: Upload APK
+      - name: Upload Release APK
         uses: actions/upload-artifact@v4
         with:
-          name: OwlProxy-release
-          path: app/build/outputs/apk/release/app-release.apk
+        name: OwlProxy-Release
+        path: app/build/outputs/apk/release/app-release.apk
